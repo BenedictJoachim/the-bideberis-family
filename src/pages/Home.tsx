@@ -21,26 +21,26 @@ const Home = () => {
     <div id="fullpage">
       <div className="section">
         {/* Hero Section */}
-        <section className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-blue-600 text-white p-8">
+        <section className="flex flex-col md:flex-row items-center justify-between min-h-screen text-white p-0">
           <motion.div 
-            initial={{ opacity: 0, x: -100 }} 
-            animate={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: 150 }} 
+            animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.5 }}
-            className="text-center md:text-left"
+            className="bg-blue-600 md:w-1/2 h-[50%] md:min-h-screen text-center md:text-center pl-8"
           >
-            <h1 className="text-5xl font-bold">Software</h1>
-            <p className="mt-4">Enterprise IT Management Software</p>
+            <h1 className="text-5xl font-bold">KARIBU!</h1>
+            <p className="mt-4">We are the Bideberis.</p>
             <Link to="#about-us" className="mt-8 inline-block bg-white text-blue-600 px-4 py-2 rounded">
               About Us
             </Link>
           </motion.div>
           <motion.div 
-            initial={{ opacity: 0, x: 100 }} 
-            animate={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: 100 }} 
+            animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="mt-8 md:mt-0"
+            className="md:w-1/2"
           >
-            <img src="path/to/your/image.jpg" alt="Placeholder" className="w-full md:w-96" />
+            <img src="/familiy.jpg" alt="Placeholder" className="w-full md:min-h-screen" />
           </motion.div>
         </section>
       </div>
@@ -57,8 +57,7 @@ const Home = () => {
           >
             <h2 className="text-4xl font-bold">About Us</h2>
             <p className="mt-4 max-w-2xl mx-auto">
-              We are dedicated to providing top-notch enterprise IT management software.
-              Our solutions help you manage, monitor, and optimize your infrastructure.
+              We are a catholic family.
             </p>
           </motion.div>
         </section>
@@ -66,10 +65,10 @@ const Home = () => {
 
       <div className="section">
         {/* Photography Section */}
-        <section id="photography" className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-gray-200 p-8">
+        <section id="photography" className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-gray-200 p-0">
           <motion.div 
-            initial={{ opacity: 0, x: -100 }} 
-            whileInView={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: -100 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             className="md:w-1/2 p-4"
@@ -80,23 +79,23 @@ const Home = () => {
             </p>
           </motion.div>
           <motion.div 
-            initial={{ opacity: 0, x: 100 }} 
-            whileInView={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: 100 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="md:w-1/2 p-4"
+            className="md:w-1/2"
           >
-            <img src="path/to/placeholder.jpg" alt="Photography" className="w-full" />
+            <img src="/photogrphr.jpg" alt="Photography" className="w-full md:min-h-screen" />
           </motion.div>
         </section>
       </div>
 
       <div className="section">
         {/* Fitness Section */}
-        <section id="fitness" className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-gray-100 p-8">
+        <section id="fitness" className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-gray-100 p-0">
           <motion.div 
-            initial={{ opacity: 0, x: -100 }} 
-            whileInView={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: -100 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             className="md:w-1/2 p-4"
@@ -107,23 +106,23 @@ const Home = () => {
             </p>
           </motion.div>
           <motion.div 
-            initial={{ opacity: 0, x: 100 }} 
-            whileInView={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: 100 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="md:w-1/2 p-4"
+            className="md:w-1/2"
           >
-            <img src="path/to/placeholder.jpg" alt="Fitness" className="w-full" />
+            <img src="trainer.jpg" alt="Fitness" className="w-full md:min-h-screen" />
           </motion.div>
         </section>
       </div>
 
       <div className="section">
         {/* Arts Section */}
-        <section id="arts" className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-gray-200 p-8">
+        <section id="arts" className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-gray-200">
           <motion.div 
-            initial={{ opacity: 0, x: -100 }} 
-            whileInView={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: -100 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             className="md:w-1/2 p-4"
@@ -134,23 +133,23 @@ const Home = () => {
             </p>
           </motion.div>
           <motion.div 
-            initial={{ opacity: 0, x: 100 }} 
-            whileInView={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: 100 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="md:w-1/2 p-4"
+            className="md:w-1/2"
           >
-            <img src="path/to/placeholder.jpg" alt="Arts" className="w-full" />
+            <img src="/artscrafts.jpg" alt="Arts" className="w-full md:min-h-screen" />
           </motion.div>
         </section>
       </div>
 
       <div className="section">
         {/* Blog Section */}
-        <section id="blog" className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-gray-100 p-8">
+        <section id="blog" className="flex flex-col md:flex-row items-center justify-between min-h-screen bg-gray-100">
           <motion.div 
-            initial={{ opacity: 0, x: -100 }} 
-            whileInView={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: -100 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             className="md:w-1/2 p-4"
@@ -161,13 +160,13 @@ const Home = () => {
             </p>
           </motion.div>
           <motion.div 
-            initial={{ opacity: 0, x: 100 }} 
-            whileInView={{ opacity: 1, x: 0 }} 
+            initial={{ opacity: 0, y: 100 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="md:w-1/2 p-4"
+            className="md:w-1/2"
           >
-            <img src="path/to/placeholder.jpg" alt="Blog" className="w-full" />
+            <img src="/familiy.jpg" alt="Blog" className="w-full md:min-h-screen" />
           </motion.div>
         </section>
       </div>
