@@ -21,12 +21,12 @@ const Home = () => {
     <div id="fullpage">
       <div className="section">
         {/* Hero Section */}
-        <section className="flex flex-col md:flex-row items-center justify-between min-h-screen text-white p-0">
+        <section className="bg-blue-600 flex flex-col md:flex-row items-center justify-between min-h-screen text-white p-0">
           <motion.div 
             initial={{ opacity: 0, y: 150 }} 
             animate={{ opacity: 1, y: 0 }} 
             transition={{ duration: 0.5 }}
-            className="bg-blue-600 md:w-1/2 h-[50%] md:min-h-screen text-center md:text-center pl-8"
+            className="md:w-1/2 h-[50%] md:min-h-screen text-center md:text-center pl-8"
           >
             <h1 className="text-5xl font-bold">KARIBU!</h1>
             <p className="mt-4">We are the Bideberis.</p>
