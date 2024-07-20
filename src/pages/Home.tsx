@@ -33,6 +33,7 @@ const Home = () => {
             <Link to="#about-us" className="mt-8 inline-block bg-white text-blue-600 px-4 py-2 rounded">
               About Us
             </Link>
+            {/* <a href="#about-us">About</a> */}
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, y: 100 }} 
@@ -77,6 +78,7 @@ const Home = () => {
             <p className="mt-4">
               Explore our gallery of stunning photographs capturing the essence of creativity.
             </p>
+            <Link to="/photography">Photography</Link>
           </motion.div>
           <motion.div 
             initial={{ opacity: 0, y: 100 }} 
